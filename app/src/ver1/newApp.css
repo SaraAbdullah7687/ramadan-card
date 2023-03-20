@@ -1,0 +1,157 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.5;
+	background-color: #efe2ce;
+	padding: 0 2rem;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+
+/* iOS Reset  */
+input {
+	appearance: none;
+	border-radius: 0;
+}
+
+.card {
+	margin: 10rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 600px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .75rem;
+	text-align: center;
+
+
+}
+
+.card-image {
+	/* border-radius: 8px;
+	overflow: hidden;
+	padding-bottom: 65%;
+	background-image:  url('img.jpg'); 
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0 5%; 
+    display: flex;
+	position: relative; */
+	margin-top: 1rem;
+	display: flex;
+	position: relative;
+}
+
+.card-heading {
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	right: 10%;
+	font-size: 1.75rem;
+	font-weight: 700;
+	color: #735400;
+	line-height: 1.222;
+}
+
+.card-form {
+	padding: 2rem 1rem 0;
+}
+
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+	
+	/* &+.input {
+		margin-top: 1.5rem;
+	} */
+}
+
+.input-label {
+	color: #8597a3;
+	position: absolute;
+	top: 1.5rem;
+	transition: .25s ease;
+}
+
+.input-field {
+	border: 0;
+	z-index: 1;
+	background-color: transparent;
+	border-bottom: 3px solid #c98f3874;
+	font: inherit;
+	font-size: 1.125rem;
+	padding: .25rem 0;
+	text-align: right;
+	/* &:focus, &:valid {
+		outline: 0;
+		border-bottom-color: #6658d3;
+		&+.input-label {
+			color: #6658d3;
+			transform: translateY(-1.5rem);
+		}
+	}  */
+}
+
+.input-field:focus,
+.input-field:valid {
+	outline: 0;
+	border-bottom-color: #c99038;
+	/* &+.input-label {
+		color: #6658d3;
+		transform: translateY(-1.5rem);
+	} */
+}
+
+.action {
+	margin-top: 2rem;
+}
+
+.action-button {
+	font: inherit;
+	font-size: 1.25rem;
+	padding: 1em;
+	width: 100%;
+	font-weight: 500;
+	background-color: #c99038;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+	/* &:focus {
+		outline: 0;
+	} */
+}
+
+.action-button:hover {
+	background-color: #c98f38d7;
+}
+
+.action-button:active {
+	transform: scale(.98);
+}
+
+.image {
+	width: 80vw;
+}
+
+.image-text {
+	position: absolute;
+	bottom: 12%;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.heading {}

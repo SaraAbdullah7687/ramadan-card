@@ -1,4 +1,4 @@
-*{
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,6 +31,22 @@ position: relative;
   right: 0;
   text-align: center;
 }
+.download-btn {
+  color: white;
+  background-color: #c99038;
+  margin-top: 2rem;
+  width: 50vw;
+  padding-block: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+.download-btn:hover {
+background-color: black;
+}
+.download-btn:active {
+  transform: scale(.98);
+} 
 /* .App {
   text-align: center;
 }
@@ -69,4 +85,17 @@ position: relative;
     transform: rotate(360deg);
   }
 }
+ .container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  padding-bottom: 50px;
+  min-height: 100vh;
+} 
  */
