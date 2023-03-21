@@ -1,5 +1,18 @@
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
 
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+	.image-text {
+		position: absolute;
+		bottom: 22%;
+		font-size: 15%;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: #444c54;
+	}	
+}
+
 *,
 *:after,
 *:before {
@@ -11,8 +24,8 @@
 body {
 	font-family: 'Amiri', serif;
 	line-height: 1.5;
-	background-color: #efe2ce;
-	padding: 0 2rem;
+	background-image:linear-gradient(#D6BC9A,#E8DCD0,#A4A4A4);
+padding: 0 2rem;
 }
 
 img {
@@ -152,10 +165,11 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 22%;
+	bottom: 5%;
 	left: 0;
 	right: 0;
 	text-align: center;
+	font-size: 17px;
 	color: #444c54;
 }
 

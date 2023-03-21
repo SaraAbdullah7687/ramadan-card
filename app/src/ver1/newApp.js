@@ -1,7 +1,7 @@
 
 import './newApp.css';
 // import { Fragment } from "react"
-import img from '../images/ramadan_card.png'
+import img from '../images/IT.jpg'
 import React from 'react';
 import { toPng } from 'html-to-image'
 import download from 'downloadjs'
