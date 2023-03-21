@@ -1,11 +1,15 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+
 *,
 *:after,
 *:before {
 	box-sizing: border-box;
+	font-weight: bold;
+
 }
 
 body {
-	font-family: "DM Sans", sans-serif;
+	font-family: 'Amiri', serif;
 	line-height: 1.5;
 	background-color: #efe2ce;
 	padding: 0 2rem;
@@ -73,7 +77,7 @@ input {
 	flex-direction: column-reverse;
 	position: relative;
 	padding-top: 1.5rem;
-	
+
 	/* &+.input {
 		margin-top: 1.5rem;
 	} */
@@ -121,10 +125,10 @@ input {
 
 .action-button {
 	font: inherit;
-	font-size: 1.25rem;
+	font-size: 1.27rem;
+	font-weight: bold;
 	padding: 1em;
 	width: 100%;
-	font-weight: 500;
 	background-color: #c99038;
 	border-radius: 6px;
 	color: #FFF;
@@ -148,10 +152,15 @@ input {
 
 .image-text {
 	position: absolute;
-	bottom: 12%;
+	bottom: 22%;
 	left: 0;
 	right: 0;
 	text-align: center;
+	color: #444c54;
 }
 
-.heading {}
+.heading {
+	font-size: 1.27rem;
+	color: #444c54;
+
+}
